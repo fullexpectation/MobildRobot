@@ -1,0 +1,46 @@
+[3.059s] Invoking command in '/home/bingda/ros2_ws/src/base_control_ros2': PYTHONPATH=/home/bingda/ros2_ws/build/base_control_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingda/ros2_ws/install/base_control_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/base_control_ros2 build --build-base /home/bingda/ros2_ws/build/base_control_ros2/build install --record /home/bingda/ros2_ws/build/base_control_ros2/install.log --single-version-externally-managed install_data
+[3.550s] running egg_info
+[3.553s] creating ../../build/base_control_ros2/base_control_ros2.egg-info
+[3.554s] writing ../../build/base_control_ros2/base_control_ros2.egg-info/PKG-INFO
+[3.556s] writing dependency_links to ../../build/base_control_ros2/base_control_ros2.egg-info/dependency_links.txt
+[3.557s] writing entry points to ../../build/base_control_ros2/base_control_ros2.egg-info/entry_points.txt
+[3.558s] writing requirements to ../../build/base_control_ros2/base_control_ros2.egg-info/requires.txt
+[3.559s] writing top-level names to ../../build/base_control_ros2/base_control_ros2.egg-info/top_level.txt
+[3.560s] writing manifest file '../../build/base_control_ros2/base_control_ros2.egg-info/SOURCES.txt'
+[3.564s] reading manifest file '../../build/base_control_ros2/base_control_ros2.egg-info/SOURCES.txt'
+[3.566s] writing manifest file '../../build/base_control_ros2/base_control_ros2.egg-info/SOURCES.txt'
+[3.567s] running build
+[3.567s] running build_py
+[3.568s] creating /home/bingda/ros2_ws/build/base_control_ros2/build
+[3.568s] creating /home/bingda/ros2_ws/build/base_control_ros2/build/lib
+[3.569s] creating /home/bingda/ros2_ws/build/base_control_ros2/build/lib/base_control_ros2
+[3.570s] copying base_control_ros2/__init__.py -> /home/bingda/ros2_ws/build/base_control_ros2/build/lib/base_control_ros2
+[3.570s] copying base_control_ros2/base_control_ros2.py -> /home/bingda/ros2_ws/build/base_control_ros2/build/lib/base_control_ros2
+[3.572s] copying base_control_ros2/test_node.py -> /home/bingda/ros2_ws/build/base_control_ros2/build/lib/base_control_ros2
+[3.573s] copying base_control_ros2/loopqueue.py -> /home/bingda/ros2_ws/build/base_control_ros2/build/lib/base_control_ros2
+[3.573s] running install
+[3.574s] running install_lib
+[3.576s] creating /home/bingda/ros2_ws/install/base_control_ros2/lib/python3.10/site-packages/base_control_ros2
+[3.576s] copying /home/bingda/ros2_ws/build/base_control_ros2/build/lib/base_control_ros2/__init__.py -> /home/bingda/ros2_ws/install/base_control_ros2/lib/python3.10/site-packages/base_control_ros2
+[3.576s] copying /home/bingda/ros2_ws/build/base_control_ros2/build/lib/base_control_ros2/base_control_ros2.py -> /home/bingda/ros2_ws/install/base_control_ros2/lib/python3.10/site-packages/base_control_ros2
+[3.576s] copying /home/bingda/ros2_ws/build/base_control_ros2/build/lib/base_control_ros2/test_node.py -> /home/bingda/ros2_ws/install/base_control_ros2/lib/python3.10/site-packages/base_control_ros2
+[3.576s] copying /home/bingda/ros2_ws/build/base_control_ros2/build/lib/base_control_ros2/loopqueue.py -> /home/bingda/ros2_ws/install/base_control_ros2/lib/python3.10/site-packages/base_control_ros2
+[3.577s] byte-compiling /home/bingda/ros2_ws/install/base_control_ros2/lib/python3.10/site-packages/base_control_ros2/__init__.py to __init__.cpython-310.pyc
+[3.577s] byte-compiling /home/bingda/ros2_ws/install/base_control_ros2/lib/python3.10/site-packages/base_control_ros2/base_control_ros2.py to base_control_ros2.cpython-310.pyc
+[3.584s] byte-compiling /home/bingda/ros2_ws/install/base_control_ros2/lib/python3.10/site-packages/base_control_ros2/test_node.py to test_node.cpython-310.pyc
+[3.584s] byte-compiling /home/bingda/ros2_ws/install/base_control_ros2/lib/python3.10/site-packages/base_control_ros2/loopqueue.py to loopqueue.cpython-310.pyc
+[3.586s] running install_data
+[3.586s] creating /home/bingda/ros2_ws/install/base_control_ros2/share/ament_index
+[3.587s] creating /home/bingda/ros2_ws/install/base_control_ros2/share/ament_index/resource_index
+[3.587s] creating /home/bingda/ros2_ws/install/base_control_ros2/share/ament_index/resource_index/packages
+[3.588s] copying resource/base_control_ros2 -> /home/bingda/ros2_ws/install/base_control_ros2/share/ament_index/resource_index/packages
+[3.588s] copying package.xml -> /home/bingda/ros2_ws/install/base_control_ros2/share/base_control_ros2
+[3.589s] creating /home/bingda/ros2_ws/install/base_control_ros2/share/base_control_ros2/launch
+[3.589s] copying launch/base_control.launch.py -> /home/bingda/ros2_ws/install/base_control_ros2/share/base_control_ros2/launch
+[3.589s] running install_egg_info
+[3.597s] Copying ../../build/base_control_ros2/base_control_ros2.egg-info to /home/bingda/ros2_ws/install/base_control_ros2/lib/python3.10/site-packages/base_control_ros2-0.0.0-py3.10.egg-info
+[3.600s] running install_scripts
+[3.653s] Installing base_control_node script to /home/bingda/ros2_ws/install/base_control_ros2/lib/base_control_ros2
+[3.654s] Installing test_node script to /home/bingda/ros2_ws/install/base_control_ros2/lib/base_control_ros2
+[3.656s] writing list of installed files to '/home/bingda/ros2_ws/build/base_control_ros2/install.log'
+[3.809s] Invoked command in '/home/bingda/ros2_ws/src/base_control_ros2' returned '0': PYTHONPATH=/home/bingda/ros2_ws/build/base_control_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingda/ros2_ws/install/base_control_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/base_control_ros2 build --build-base /home/bingda/ros2_ws/build/base_control_ros2/build install --record /home/bingda/ros2_ws/build/base_control_ros2/install.log --single-version-externally-managed install_data

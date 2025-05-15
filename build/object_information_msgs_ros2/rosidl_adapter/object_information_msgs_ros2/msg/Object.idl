@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from object_information_msgs_ros2/msg/Object.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module object_information_msgs_ros2 {
+  module msg {
+    @verbatim (language="comment", text=
+      "bounding box with marker positions")
+    struct Object {
+      std_msgs::msg::Header header;
+
+      uint64 detect_sequence;
+
+      uint16 object_total;
+
+      uint16 object_sequence;
+
+      string label;
+
+      float probability;
+
+      geometry_msgs::msg::Pose position;
+
+      geometry_msgs::msg::Vector3 size;
+    };
+  };
+};

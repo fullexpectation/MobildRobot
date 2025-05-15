@@ -1,0 +1,8 @@
+[console_scripts]
+ncnn_ros2_test = ncnn_ros2.ncnn_ros2_test:main
+yolov10_ros = ncnn_ros2.yolov10_ros:main
+yolov3_ros = ncnn_ros2.yolov3_ros:main
+yolov5_ros = ncnn_ros2.yolov5_ros:main
+yolov7_ros = ncnn_ros2.yolov7_ros:main
+yolov8_ros = ncnn_ros2.yolov8_ros:main
+

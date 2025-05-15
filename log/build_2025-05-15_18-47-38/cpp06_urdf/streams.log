@@ -1,0 +1,92 @@
+[1.016s] Invoking command in '/home/bingda/ros2_ws/build/cpp06_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingda/ros2_ws/install/car_application:/home/bingda/ros2_ws/install/base_control_ros2:/home/bingda/ros2_ws/install/robot_vslam_ros2:/home/bingda/ros2_ws/install/robot_vision_ros2:/home/bingda/ros2_ws/install/robot_navigation_ros2:/home/bingda/ros2_ws/install/ncnn_ros2:/home/bingda/NanoRobot/install/car_application:/home/bingda/NanoRobot/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake /home/bingda/ros2_ws/src/cpp06_urdf -DCMAKE_INSTALL_PREFIX=/home/bingda/ros2_ws/install/cpp06_urdf
+[1.649s] -- The C compiler identification is GNU 11.4.0
+[1.649s] -- The CXX compiler identification is GNU 11.4.0
+[1.649s] -- Detecting C compiler ABI info
+[1.806s] -- Detecting C compiler ABI info - done
+[1.854s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.855s] -- Detecting C compile features
+[1.856s] -- Detecting C compile features - done
+[1.868s] -- Detecting CXX compiler ABI info
+[2.106s] -- Detecting CXX compiler ABI info - done
+[2.118s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.119s] -- Detecting CXX compile features
+[2.120s] -- Detecting CXX compile features - done
+[2.124s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.070s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.673s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.054s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.060s] -- Added test 'lint_cmake' to check CMake code style
+[4.062s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.071s] -- Added test 'xmllint' to check XML markup files
+[4.077s] -- Configuring done
+[4.102s] -- Generating done
+[4.116s] -- Build files have been written to: /home/bingda/ros2_ws/build/cpp06_urdf
+[5.535s] Invoked command in '/home/bingda/ros2_ws/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingda/ros2_ws/install/car_application:/home/bingda/ros2_ws/install/base_control_ros2:/home/bingda/ros2_ws/install/robot_vslam_ros2:/home/bingda/ros2_ws/install/robot_vision_ros2:/home/bingda/ros2_ws/install/robot_navigation_ros2:/home/bingda/ros2_ws/install/ncnn_ros2:/home/bingda/NanoRobot/install/car_application:/home/bingda/NanoRobot/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake /home/bingda/ros2_ws/src/cpp06_urdf -DCMAKE_INSTALL_PREFIX=/home/bingda/ros2_ws/install/cpp06_urdf
+[5.540s] Invoking command in '/home/bingda/ros2_ws/build/cpp06_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingda/ros2_ws/install/car_application:/home/bingda/ros2_ws/install/base_control_ros2:/home/bingda/ros2_ws/install/robot_vslam_ros2:/home/bingda/ros2_ws/install/robot_vision_ros2:/home/bingda/ros2_ws/install/robot_navigation_ros2:/home/bingda/ros2_ws/install/ncnn_ros2:/home/bingda/NanoRobot/install/car_application:/home/bingda/NanoRobot/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bingda/ros2_ws/build/cpp06_urdf -- -j8 -l8
+[7.001s] Invoked command in '/home/bingda/ros2_ws/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingda/ros2_ws/install/car_application:/home/bingda/ros2_ws/install/base_control_ros2:/home/bingda/ros2_ws/install/robot_vslam_ros2:/home/bingda/ros2_ws/install/robot_vision_ros2:/home/bingda/ros2_ws/install/robot_navigation_ros2:/home/bingda/ros2_ws/install/ncnn_ros2:/home/bingda/NanoRobot/install/car_application:/home/bingda/NanoRobot/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bingda/ros2_ws/build/cpp06_urdf -- -j8 -l8
+[7.053s] Invoking command in '/home/bingda/ros2_ws/build/cpp06_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingda/ros2_ws/install/car_application:/home/bingda/ros2_ws/install/base_control_ros2:/home/bingda/ros2_ws/install/robot_vslam_ros2:/home/bingda/ros2_ws/install/robot_vision_ros2:/home/bingda/ros2_ws/install/robot_navigation_ros2:/home/bingda/ros2_ws/install/ncnn_ros2:/home/bingda/NanoRobot/install/car_application:/home/bingda/NanoRobot/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bingda/ros2_ws/build/cpp06_urdf
+[7.124s] -- Install configuration: ""
+[7.124s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/launch
+[7.124s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/launch/display.launch.py
+[7.124s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/launch/gazebo_sim.launch.py
+[7.125s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/launch/cartographer.launch.py
+[7.125s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/rviz
+[7.125s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/rviz/urdf.rviz
+[7.125s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf
+[7.125s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/model.config
+[7.125s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf
+[7.125s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/my_car.gv
+[7.125s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/robot_description.urdf
+[7.125s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/my_car.pdf
+[7.125s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/robot_description.gazebo.xacro
+[7.125s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/two_wheels.urdf
+[7.125s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/robot_description.urdf.xacro
+[7.130s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/fish_robot.urdf
+[7.131s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro
+[7.131s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/common_inertia.xacro
+[7.131s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_imu.urdf.xacro
+[7.131s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/demo03_base_func.urdf.xacro
+[7.131s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/gazebo_control_plugin.xacro
+[7.131s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_base.urdf.xacro
+[7.131s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_laser.urdf.xacro
+[7.131s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/demo04_base_include.urdf.xacro
+[7.131s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/gazebo_sensor_plugin.xacro
+[7.131s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_camera.urdf.xacro
+[7.131s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_control.urdf.xacro
+[7.131s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car.urdf.xacro
+[7.131s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/demo01_helloworld.urdf.xacro
+[7.131s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_caster.urdf.xacro
+[7.131s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/demo02_base_pro.urdf.xacro
+[7.131s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes
+[7.132s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/base_link.STL
+[7.132s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/burger_base.stl
+[7.132s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/base_camera_link.STL
+[7.132s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/ball_wheel_link.STL
+[7.132s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/left_wheel_link.STL
+[7.132s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/imu.STL
+[7.132s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/right_wheel_link.STL
+[7.132s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/base_laser_link.STL
+[7.132s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/worlds
+[7.132s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/worlds/empty.world
+[7.132s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/worlds/custom_room.world
+[7.132s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/config
+[7.132s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/config/cartographer.lua
+[7.132s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/config/car_controller.yaml
+[7.132s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/config/display_robot_model.rviz
+[7.133s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/config/joint_names_robot_description.yaml
+[7.133s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/ament_index/resource_index/package_run_dependencies/cpp06_urdf
+[7.133s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/ament_index/resource_index/parent_prefix_path/cpp06_urdf
+[7.133s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.sh
+[7.133s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.dsv
+[7.177s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/environment/path.sh
+[7.182s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/environment/path.dsv
+[7.182s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.bash
+[7.183s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.sh
+[7.183s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.zsh
+[7.183s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.dsv
+[7.183s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/package.dsv
+[7.183s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/ament_index/resource_index/packages/cpp06_urdf
+[7.183s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig.cmake
+[7.183s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig-version.cmake
+[7.183s] -- Installing: /home/bingda/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/package.xml
+[7.231s] Invoked command in '/home/bingda/ros2_ws/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingda/ros2_ws/install/car_application:/home/bingda/ros2_ws/install/base_control_ros2:/home/bingda/ros2_ws/install/robot_vslam_ros2:/home/bingda/ros2_ws/install/robot_vision_ros2:/home/bingda/ros2_ws/install/robot_navigation_ros2:/home/bingda/ros2_ws/install/ncnn_ros2:/home/bingda/NanoRobot/install/car_application:/home/bingda/NanoRobot/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bingda/ros2_ws/build/cpp06_urdf

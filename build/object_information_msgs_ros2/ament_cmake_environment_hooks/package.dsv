@@ -1,0 +1,4 @@
+source;share/object_information_msgs_ros2/local_setup.bash
+source;share/object_information_msgs_ros2/local_setup.dsv
+source;share/object_information_msgs_ros2/local_setup.sh
+source;share/object_information_msgs_ros2/local_setup.zsh

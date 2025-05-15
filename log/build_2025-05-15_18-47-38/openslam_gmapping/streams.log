@@ -1,0 +1,120 @@
+[0.116s] Invoking command in '/home/bingda/ros2_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingda/ros2_ws/install/car_application:/home/bingda/ros2_ws/install/base_control_ros2:/home/bingda/ros2_ws/install/robot_vslam_ros2:/home/bingda/ros2_ws/install/robot_vision_ros2:/home/bingda/ros2_ws/install/robot_navigation_ros2:/home/bingda/ros2_ws/install/ncnn_ros2:/home/bingda/NanoRobot/install/car_application:/home/bingda/NanoRobot/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake /home/bingda/ros2_ws/src/depend_pkg/slam_gmapping/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/home/bingda/ros2_ws/install/openslam_gmapping
+[1.692s] -- The C compiler identification is GNU 11.4.0
+[1.692s] -- The CXX compiler identification is GNU 11.4.0
+[1.692s] -- Detecting C compiler ABI info
+[1.692s] -- Detecting C compiler ABI info - done
+[1.692s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.693s] -- Detecting C compile features
+[1.693s] -- Detecting C compile features - done
+[1.693s] -- Detecting CXX compiler ABI info
+[1.693s] -- Detecting CXX compiler ABI info - done
+[1.693s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.693s] -- Detecting CXX compile features
+[1.694s] -- Detecting CXX compile features - done
+[1.694s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.694s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.848s] -- Configuring done
+[1.868s] -- Generating done
+[1.875s] -- Build files have been written to: /home/bingda/ros2_ws/build/openslam_gmapping
+[2.317s] Invoked command in '/home/bingda/ros2_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingda/ros2_ws/install/car_application:/home/bingda/ros2_ws/install/base_control_ros2:/home/bingda/ros2_ws/install/robot_vslam_ros2:/home/bingda/ros2_ws/install/robot_vision_ros2:/home/bingda/ros2_ws/install/robot_navigation_ros2:/home/bingda/ros2_ws/install/ncnn_ros2:/home/bingda/NanoRobot/install/car_application:/home/bingda/NanoRobot/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake /home/bingda/ros2_ws/src/depend_pkg/slam_gmapping/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/home/bingda/ros2_ws/install/openslam_gmapping
+[2.318s] Invoking command in '/home/bingda/ros2_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingda/ros2_ws/install/car_application:/home/bingda/ros2_ws/install/base_control_ros2:/home/bingda/ros2_ws/install/robot_vslam_ros2:/home/bingda/ros2_ws/install/robot_vision_ros2:/home/bingda/ros2_ws/install/robot_navigation_ros2:/home/bingda/ros2_ws/install/ncnn_ros2:/home/bingda/NanoRobot/install/car_application:/home/bingda/NanoRobot/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bingda/ros2_ws/build/openslam_gmapping -- -j8 -l8
+[2.451s] [  4%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensor.cpp.o[0m
+[2.477s] [  9%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensorreading.cpp.o[0m
+[2.493s] [ 13%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/movement.cpp.o[0m
+[2.571s] [ 18%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/stat.cpp.o[0m
+[3.564s] [ 22%] [32m[1mLinking CXX static library libsensor_base.a[0m
+[3.884s] [ 22%] Built target sensor_base
+[4.023s] [ 27%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o[0m
+[4.032s] [ 31%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o[0m
+[4.033s] [ 36%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o[0m
+[4.051s] [ 40%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o[0m
+[4.985s] [ 45%] [32m[1mLinking CXX static library libutils.a[0m
+[5.174s] [ 50%] [32m[1mLinking CXX static library libsensor_odometry.a[0m
+[5.204s] [ 50%] Built target utils
+[5.286s] [ 50%] Built target sensor_odometry
+[5.734s] [ 54%] [32m[1mLinking CXX static library libsensor_range.a[0m
+[5.961s] [ 54%] Built target sensor_range
+[6.128s] [ 59%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcher.cpp.o[0m
+[6.135s] [ 63%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/eig3.cpp.o[0m
+[6.217s] [ 68%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/smmap.cpp.o[0m
+[6.261s] [ 72%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcherprocessor.cpp.o[0m
+[11.081s] [ 77%] [32m[1mLinking CXX static library libscanmatcher.a[0m
+[11.223s] [ 77%] Built target scanmatcher
+[11.310s] [ 81%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor.cpp.o[0m
+[11.321s] [ 86%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gfsreader.cpp.o[0m
+[11.335s] [ 90%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor_tree.cpp.o[0m
+[11.389s] [ 95%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/motionmodel.cpp.o[0m
+[20.074s] [100%] [32m[1mLinking CXX static library libgridfastslam.a[0m
+[20.888s] [100%] Built target gridfastslam
+[21.053s] Invoked command in '/home/bingda/ros2_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingda/ros2_ws/install/car_application:/home/bingda/ros2_ws/install/base_control_ros2:/home/bingda/ros2_ws/install/robot_vslam_ros2:/home/bingda/ros2_ws/install/robot_vision_ros2:/home/bingda/ros2_ws/install/robot_navigation_ros2:/home/bingda/ros2_ws/install/ncnn_ros2:/home/bingda/NanoRobot/install/car_application:/home/bingda/NanoRobot/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bingda/ros2_ws/build/openslam_gmapping -- -j8 -l8
+[21.056s] Invoking command in '/home/bingda/ros2_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingda/ros2_ws/install/car_application:/home/bingda/ros2_ws/install/base_control_ros2:/home/bingda/ros2_ws/install/robot_vslam_ros2:/home/bingda/ros2_ws/install/robot_vision_ros2:/home/bingda/ros2_ws/install/robot_navigation_ros2:/home/bingda/ros2_ws/install/ncnn_ros2:/home/bingda/NanoRobot/install/car_application:/home/bingda/NanoRobot/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bingda/ros2_ws/build/openslam_gmapping
+[21.076s] -- Install configuration: ""
+[21.076s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[21.077s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[21.077s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include/
+[21.077s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping
+[21.078s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/sensor
+[21.078s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range
+[21.078s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h
+[21.079s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h
+[21.079s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base
+[21.080s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h
+[21.080s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h
+[21.081s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry
+[21.082s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h
+[21.083s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h
+[21.087s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/particlefilter
+[21.087s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h
+[21.088s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/log
+[21.089s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/log/configuration.h
+[21.089s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/log/sensorlog.h
+[21.090s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/utils
+[21.090s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/utils/gvalues.h
+[21.090s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/utils/autoptr.h
+[21.091s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/utils/macro_params.h
+[21.091s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/utils/point.h
+[21.091s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/utils/commandline.h
+[21.092s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/utils/stat.h
+[21.092s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/grid
+[21.092s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/grid/array2d.h
+[21.093s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/grid/harray2d.h
+[21.093s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/grid/accessstate.h
+[21.093s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/grid/map.h
+[21.101s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam
+[21.142s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h
+[21.143s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h
+[21.144s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx
+[21.144s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher
+[21.145s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h
+[21.145s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h
+[21.146s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h
+[21.146s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping
+[21.147s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping
+[21.148s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh
+[21.148s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv
+[21.149s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh
+[21.149s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv
+[21.150s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash
+[21.150s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh
+[21.154s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh
+[21.180s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv
+[21.180s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv
+[21.180s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping
+[21.180s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake
+[21.180s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.180s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake
+[21.180s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake
+[21.180s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.xml
+[21.180s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/lib/libgridfastslam.a
+[21.180s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/lib/libscanmatcher.a
+[21.180s] -- Up-to-date: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[21.181s] -- Up-to-date: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[21.181s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/lib/libsensor_base.a
+[21.181s] -- Up-to-date: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[21.181s] -- Up-to-date: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[21.181s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/lib/libsensor_odometry.a
+[21.181s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/lib/libsensor_range.a
+[21.181s] -- Installing: /home/bingda/ros2_ws/install/openslam_gmapping/lib/libutils.a
+[21.181s] -- Up-to-date: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[21.181s] -- Up-to-date: /home/bingda/ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[21.181s] Invoked command in '/home/bingda/ros2_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingda/ros2_ws/install/car_application:/home/bingda/ros2_ws/install/base_control_ros2:/home/bingda/ros2_ws/install/robot_vslam_ros2:/home/bingda/ros2_ws/install/robot_vision_ros2:/home/bingda/ros2_ws/install/robot_navigation_ros2:/home/bingda/ros2_ws/install/ncnn_ros2:/home/bingda/NanoRobot/install/car_application:/home/bingda/NanoRobot/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bingda/ros2_ws/build/openslam_gmapping

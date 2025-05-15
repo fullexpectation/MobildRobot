@@ -1,0 +1,63 @@
+running egg_info
+creating ../../../build/robot_vslam_ros2/robot_vslam_ros2.egg-info
+writing ../../../build/robot_vslam_ros2/robot_vslam_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../../build/robot_vslam_ros2/robot_vslam_ros2.egg-info/dependency_links.txt
+writing entry points to ../../../build/robot_vslam_ros2/robot_vslam_ros2.egg-info/entry_points.txt
+writing requirements to ../../../build/robot_vslam_ros2/robot_vslam_ros2.egg-info/requires.txt
+writing top-level names to ../../../build/robot_vslam_ros2/robot_vslam_ros2.egg-info/top_level.txt
+writing manifest file '../../../build/robot_vslam_ros2/robot_vslam_ros2.egg-info/SOURCES.txt'
+reading manifest file '../../../build/robot_vslam_ros2/robot_vslam_ros2.egg-info/SOURCES.txt'
+writing manifest file '../../../build/robot_vslam_ros2/robot_vslam_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/bingda/ros2_ws/build/robot_vslam_ros2/build
+creating /home/bingda/ros2_ws/build/robot_vslam_ros2/build/lib
+creating /home/bingda/ros2_ws/build/robot_vslam_ros2/build/lib/robot_vslam_ros2
+copying robot_vslam_ros2/__init__.py -> /home/bingda/ros2_ws/build/robot_vslam_ros2/build/lib/robot_vslam_ros2
+running install
+running install_lib
+creating /home/bingda/ros2_ws/install/robot_vslam_ros2/lib/python3.10/site-packages/robot_vslam_ros2
+copying /home/bingda/ros2_ws/build/robot_vslam_ros2/build/lib/robot_vslam_ros2/__init__.py -> /home/bingda/ros2_ws/install/robot_vslam_ros2/lib/python3.10/site-packages/robot_vslam_ros2
+byte-compiling /home/bingda/ros2_ws/install/robot_vslam_ros2/lib/python3.10/site-packages/robot_vslam_ros2/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/bingda/ros2_ws/install/robot_vslam_ros2/share/ament_index
+creating /home/bingda/ros2_ws/install/robot_vslam_ros2/share/ament_index/resource_index
+creating /home/bingda/ros2_ws/install/robot_vslam_ros2/share/ament_index/resource_index/packages
+copying resource/robot_vslam_ros2 -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/ament_index/resource_index/packages
+copying package.xml -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2
+creating /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/launch
+copying launch/rtabmap_rgbd_laser_slam.launch.py -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/launch
+copying launch/rgbd_camera.launch.py -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/launch
+copying launch/rviz_rtabmap.launch.py -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/launch
+copying launch/depthimage_to_laserscan.launch.py -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/launch
+copying launch/rviz_rgbd.launch.py -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/launch
+copying launch/robot_rgbd_lidar.launch.py -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/launch
+copying launch/rtabmap_rgbd_slam.launch.py -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/launch
+copying launch/robot_rgbd.launch.py -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/launch
+copying launch/camera/astra_pro.launch.xml -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/launch
+copying launch/camera/astra_s.launch.xml -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/launch
+copying launch/camera/astra_letv.launch.xml -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/launch
+creating /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/config
+copying config/param.yaml -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/config/.
+creating /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/config/astra_s
+copying config/astra_s/depth_camera_240.yaml -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/config/astra_s
+copying config/astra_s/depth_camera.yaml -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/config/astra_s
+copying config/astra_s/rgb_camera_240.yaml -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/config/astra_s
+copying config/astra_s/rgb_camera.yaml -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/config/astra_s
+creating /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/config/astra_pro
+copying config/astra_pro/depth_camera_240.yaml -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/config/astra_pro
+copying config/astra_pro/depth_camera.yaml -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/config/astra_pro
+copying config/astra_pro/rgb_camera_240.yaml -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/config/astra_pro
+copying config/astra_pro/rgb_camera.yaml -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/config/astra_pro
+creating /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/config/astra_letv
+copying config/astra_letv/depth_camera_240.yaml -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/config/astra_letv
+copying config/astra_letv/depth_camera.yaml -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/config/astra_letv
+copying config/astra_letv/rgb_camera_240.yaml -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/config/astra_letv
+copying config/astra_letv/rgb_camera.yaml -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/config/astra_letv
+creating /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/rviz
+copying rviz/rtabmap.rviz -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/rviz
+copying rviz/rgbd_cameras.rviz -> /home/bingda/ros2_ws/install/robot_vslam_ros2/share/robot_vslam_ros2/rviz
+running install_egg_info
+Copying ../../../build/robot_vslam_ros2/robot_vslam_ros2.egg-info to /home/bingda/ros2_ws/install/robot_vslam_ros2/lib/python3.10/site-packages/robot_vslam_ros2-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/bingda/ros2_ws/build/robot_vslam_ros2/install.log'

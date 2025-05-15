@@ -1,0 +1,4 @@
+[console_scripts]
+initial_pose_publisher = robot_navigation_ros2.initial_pose_publisher:main
+navigation_test = robot_navigation_ros2.navigation_test:main
+

@@ -1,0 +1,6 @@
+{
+  "package_name": "object_information_msgs_ros2",
+  "non_idl_tuples": [
+    "/home/bingda/ros2_ws/src/object_information_msgs_ros2:msg/Object.msg"
+  ]
+}

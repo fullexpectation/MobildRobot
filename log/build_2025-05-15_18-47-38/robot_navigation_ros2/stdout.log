@@ -1,0 +1,89 @@
+running egg_info
+creating ../../../build/robot_navigation_ros2/robot_navigation_ros2.egg-info
+writing ../../../build/robot_navigation_ros2/robot_navigation_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../../build/robot_navigation_ros2/robot_navigation_ros2.egg-info/dependency_links.txt
+writing entry points to ../../../build/robot_navigation_ros2/robot_navigation_ros2.egg-info/entry_points.txt
+writing requirements to ../../../build/robot_navigation_ros2/robot_navigation_ros2.egg-info/requires.txt
+writing top-level names to ../../../build/robot_navigation_ros2/robot_navigation_ros2.egg-info/top_level.txt
+writing manifest file '../../../build/robot_navigation_ros2/robot_navigation_ros2.egg-info/SOURCES.txt'
+reading manifest file '../../../build/robot_navigation_ros2/robot_navigation_ros2.egg-info/SOURCES.txt'
+writing manifest file '../../../build/robot_navigation_ros2/robot_navigation_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/bingda/ros2_ws/build/robot_navigation_ros2/build
+creating /home/bingda/ros2_ws/build/robot_navigation_ros2/build/lib
+creating /home/bingda/ros2_ws/build/robot_navigation_ros2/build/lib/robot_navigation_ros2
+copying robot_navigation_ros2/__init__.py -> /home/bingda/ros2_ws/build/robot_navigation_ros2/build/lib/robot_navigation_ros2
+copying robot_navigation_ros2/navigation_test.py -> /home/bingda/ros2_ws/build/robot_navigation_ros2/build/lib/robot_navigation_ros2
+copying robot_navigation_ros2/initial_pose_publisher.py -> /home/bingda/ros2_ws/build/robot_navigation_ros2/build/lib/robot_navigation_ros2
+running install
+running install_lib
+creating /home/bingda/ros2_ws/install/robot_navigation_ros2/lib/python3.10/site-packages/robot_navigation_ros2
+copying /home/bingda/ros2_ws/build/robot_navigation_ros2/build/lib/robot_navigation_ros2/__init__.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/lib/python3.10/site-packages/robot_navigation_ros2
+copying /home/bingda/ros2_ws/build/robot_navigation_ros2/build/lib/robot_navigation_ros2/navigation_test.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/lib/python3.10/site-packages/robot_navigation_ros2
+copying /home/bingda/ros2_ws/build/robot_navigation_ros2/build/lib/robot_navigation_ros2/initial_pose_publisher.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/lib/python3.10/site-packages/robot_navigation_ros2
+byte-compiling /home/bingda/ros2_ws/install/robot_navigation_ros2/lib/python3.10/site-packages/robot_navigation_ros2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/bingda/ros2_ws/install/robot_navigation_ros2/lib/python3.10/site-packages/robot_navigation_ros2/navigation_test.py to navigation_test.cpython-310.pyc
+byte-compiling /home/bingda/ros2_ws/install/robot_navigation_ros2/lib/python3.10/site-packages/robot_navigation_ros2/initial_pose_publisher.py to initial_pose_publisher.cpython-310.pyc
+running install_data
+creating /home/bingda/ros2_ws/install/robot_navigation_ros2/share/ament_index
+creating /home/bingda/ros2_ws/install/robot_navigation_ros2/share/ament_index/resource_index
+creating /home/bingda/ros2_ws/install/robot_navigation_ros2/share/ament_index/resource_index/packages
+copying resource/robot_navigation_ros2 -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/ament_index/resource_index/packages
+copying package.xml -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2
+creating /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/rviz_slam.launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/robot_lidar.launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/navigation.launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/lidar.launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/ekf.launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/rviz_lidar.launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/rviz_navigation.launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/gmapping.launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/slam_toolbox.launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/cartographer.launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/rtabmap_slam.launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/__pycache__/gmapping.launch.cpython-38.pyc -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/__pycache__/navigation2_rviz.launch.cpython-38.pyc -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/__pycache__/robot_lidar.launch.cpython-38.pyc -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/__pycache__/occupancy_grid.launch.cpython-38.pyc -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/__pycache__/cartographer.launch.cpython-38.pyc -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/__pycache__/navigation2.launch.cpython-38.pyc -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/__pycache__/navigation.launch.cpython-38.pyc -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/include/navigation_launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/include/rviz_launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/include/bringup_launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/include/localization_launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/include/slam_launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/lidar/rplidar_s2.launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/lidar/ydlidar.launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/lidar/sclidar.launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/lidar/rplidar_c1.launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/lidar/rplidar_a1.launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/lidar/rplidar_a1s.launch.py -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+copying launch/lidar/cp210x_lidar_udev.sh -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/launch
+creating /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/config
+copying config/bingda_lds_2d.lua -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/config
+copying config/ekf.yaml -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/config
+copying config/S4.yaml -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/config
+copying config/mapper_params_online_async.yaml -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/config
+creating /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/map
+copying map/map_gz.yaml -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/map
+copying map/map.pgm -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/map
+copying map/map.yaml -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/map
+copying map/map_gz.pgm -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/map
+creating /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/param
+creating /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/params
+copying params/NanoRobot.yaml -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/params
+copying params/smacPlannerLattice.json -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/params
+copying params/NanoRobot_Pro.yaml -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/params
+creating /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/rviz
+copying rviz/navigation.rviz -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/rviz
+copying rviz/lidar.rviz -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/rviz
+copying rviz/slam.rviz -> /home/bingda/ros2_ws/install/robot_navigation_ros2/share/robot_navigation_ros2/rviz
+running install_egg_info
+Copying ../../../build/robot_navigation_ros2/robot_navigation_ros2.egg-info to /home/bingda/ros2_ws/install/robot_navigation_ros2/lib/python3.10/site-packages/robot_navigation_ros2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing initial_pose_publisher script to /home/bingda/ros2_ws/install/robot_navigation_ros2/lib/robot_navigation_ros2
+Installing navigation_test script to /home/bingda/ros2_ws/install/robot_navigation_ros2/lib/robot_navigation_ros2
+writing list of installed files to '/home/bingda/ros2_ws/build/robot_navigation_ros2/install.log'

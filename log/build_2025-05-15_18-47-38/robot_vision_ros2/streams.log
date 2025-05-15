@@ -1,0 +1,48 @@
+[3.582s] Invoking command in '/home/bingda/ros2_ws/src/bingda_ros2_demos/robot_vision_ros2': PYTHONPATH=/home/bingda/ros2_ws/build/robot_vision_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingda/ros2_ws/install/robot_vision_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robot_vision_ros2 build --build-base /home/bingda/ros2_ws/build/robot_vision_ros2/build install --record /home/bingda/ros2_ws/build/robot_vision_ros2/install.log --single-version-externally-managed install_data
+[4.209s] running egg_info
+[4.210s] creating ../../../build/robot_vision_ros2/robot_vision_ros2.egg-info
+[4.211s] writing ../../../build/robot_vision_ros2/robot_vision_ros2.egg-info/PKG-INFO
+[4.211s] writing dependency_links to ../../../build/robot_vision_ros2/robot_vision_ros2.egg-info/dependency_links.txt
+[4.211s] writing entry points to ../../../build/robot_vision_ros2/robot_vision_ros2.egg-info/entry_points.txt
+[4.211s] writing requirements to ../../../build/robot_vision_ros2/robot_vision_ros2.egg-info/requires.txt
+[4.211s] writing top-level names to ../../../build/robot_vision_ros2/robot_vision_ros2.egg-info/top_level.txt
+[4.212s] writing manifest file '../../../build/robot_vision_ros2/robot_vision_ros2.egg-info/SOURCES.txt'
+[4.216s] reading manifest file '../../../build/robot_vision_ros2/robot_vision_ros2.egg-info/SOURCES.txt'
+[4.218s] writing manifest file '../../../build/robot_vision_ros2/robot_vision_ros2.egg-info/SOURCES.txt'
+[4.218s] running build
+[4.218s] running build_py
+[4.219s] creating /home/bingda/ros2_ws/build/robot_vision_ros2/build
+[4.219s] creating /home/bingda/ros2_ws/build/robot_vision_ros2/build/lib
+[4.219s] creating /home/bingda/ros2_ws/build/robot_vision_ros2/build/lib/robot_vision_ros2
+[4.219s] copying robot_vision_ros2/__init__.py -> /home/bingda/ros2_ws/build/robot_vision_ros2/build/lib/robot_vision_ros2
+[4.219s] copying robot_vision_ros2/line_detector.py -> /home/bingda/ros2_ws/build/robot_vision_ros2/build/lib/robot_vision_ros2
+[4.219s] copying robot_vision_ros2/vision_test.py -> /home/bingda/ros2_ws/build/robot_vision_ros2/build/lib/robot_vision_ros2
+[4.219s] copying robot_vision_ros2/cv_bridge_test.py -> /home/bingda/ros2_ws/build/robot_vision_ros2/build/lib/robot_vision_ros2
+[4.220s] running install
+[4.221s] running install_lib
+[4.223s] creating /home/bingda/ros2_ws/install/robot_vision_ros2/lib/python3.10/site-packages/robot_vision_ros2
+[4.224s] copying /home/bingda/ros2_ws/build/robot_vision_ros2/build/lib/robot_vision_ros2/__init__.py -> /home/bingda/ros2_ws/install/robot_vision_ros2/lib/python3.10/site-packages/robot_vision_ros2
+[4.224s] copying /home/bingda/ros2_ws/build/robot_vision_ros2/build/lib/robot_vision_ros2/line_detector.py -> /home/bingda/ros2_ws/install/robot_vision_ros2/lib/python3.10/site-packages/robot_vision_ros2
+[4.225s] copying /home/bingda/ros2_ws/build/robot_vision_ros2/build/lib/robot_vision_ros2/vision_test.py -> /home/bingda/ros2_ws/install/robot_vision_ros2/lib/python3.10/site-packages/robot_vision_ros2
+[4.225s] copying /home/bingda/ros2_ws/build/robot_vision_ros2/build/lib/robot_vision_ros2/cv_bridge_test.py -> /home/bingda/ros2_ws/install/robot_vision_ros2/lib/python3.10/site-packages/robot_vision_ros2
+[4.227s] byte-compiling /home/bingda/ros2_ws/install/robot_vision_ros2/lib/python3.10/site-packages/robot_vision_ros2/__init__.py to __init__.cpython-310.pyc
+[4.227s] byte-compiling /home/bingda/ros2_ws/install/robot_vision_ros2/lib/python3.10/site-packages/robot_vision_ros2/line_detector.py to line_detector.cpython-310.pyc
+[4.230s] byte-compiling /home/bingda/ros2_ws/install/robot_vision_ros2/lib/python3.10/site-packages/robot_vision_ros2/vision_test.py to vision_test.cpython-310.pyc
+[4.231s] byte-compiling /home/bingda/ros2_ws/install/robot_vision_ros2/lib/python3.10/site-packages/robot_vision_ros2/cv_bridge_test.py to cv_bridge_test.cpython-310.pyc
+[4.619s] running install_data
+[4.619s] creating /home/bingda/ros2_ws/install/robot_vision_ros2/share/ament_index
+[4.620s] creating /home/bingda/ros2_ws/install/robot_vision_ros2/share/ament_index/resource_index
+[4.620s] creating /home/bingda/ros2_ws/install/robot_vision_ros2/share/ament_index/resource_index/packages
+[4.621s] copying resource/robot_vision_ros2 -> /home/bingda/ros2_ws/install/robot_vision_ros2/share/ament_index/resource_index/packages
+[4.621s] copying package.xml -> /home/bingda/ros2_ws/install/robot_vision_ros2/share/robot_vision_ros2
+[4.622s] copying launch/camera.launch.xml -> /home/bingda/ros2_ws/install/robot_vision_ros2/share/robot_vision_ros2
+[4.693s] copying launch/camera.launch.py -> /home/bingda/ros2_ws/install/robot_vision_ros2/share/robot_vision_ros2
+[4.694s] copying launch/line_detector.launch.py -> /home/bingda/ros2_ws/install/robot_vision_ros2/share/robot_vision_ros2
+[4.695s] running install_egg_info
+[4.703s] Copying ../../../build/robot_vision_ros2/robot_vision_ros2.egg-info to /home/bingda/ros2_ws/install/robot_vision_ros2/lib/python3.10/site-packages/robot_vision_ros2-0.0.0-py3.10.egg-info
+[4.705s] running install_scripts
+[4.877s] Installing cv_bridge_test script to /home/bingda/ros2_ws/install/robot_vision_ros2/lib/robot_vision_ros2
+[4.879s] Installing line_detector script to /home/bingda/ros2_ws/install/robot_vision_ros2/lib/robot_vision_ros2
+[4.879s] Installing vision_test script to /home/bingda/ros2_ws/install/robot_vision_ros2/lib/robot_vision_ros2
+[4.880s] writing list of installed files to '/home/bingda/ros2_ws/build/robot_vision_ros2/install.log'
+[5.158s] Invoked command in '/home/bingda/ros2_ws/src/bingda_ros2_demos/robot_vision_ros2' returned '0': PYTHONPATH=/home/bingda/ros2_ws/build/robot_vision_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingda/ros2_ws/install/robot_vision_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robot_vision_ros2 build --build-base /home/bingda/ros2_ws/build/robot_vision_ros2/build install --record /home/bingda/ros2_ws/build/robot_vision_ros2/install.log --single-version-externally-managed install_data

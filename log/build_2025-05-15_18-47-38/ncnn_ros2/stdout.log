@@ -1,0 +1,74 @@
+running egg_info
+creating ../../build/ncnn_ros2/ncnn_ros2.egg-info
+writing ../../build/ncnn_ros2/ncnn_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../build/ncnn_ros2/ncnn_ros2.egg-info/dependency_links.txt
+writing entry points to ../../build/ncnn_ros2/ncnn_ros2.egg-info/entry_points.txt
+writing requirements to ../../build/ncnn_ros2/ncnn_ros2.egg-info/requires.txt
+writing top-level names to ../../build/ncnn_ros2/ncnn_ros2.egg-info/top_level.txt
+writing manifest file '../../build/ncnn_ros2/ncnn_ros2.egg-info/SOURCES.txt'
+reading manifest file '../../build/ncnn_ros2/ncnn_ros2.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/ncnn_ros2/ncnn_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/bingda/ros2_ws/build/ncnn_ros2/build
+creating /home/bingda/ros2_ws/build/ncnn_ros2/build/lib
+creating /home/bingda/ros2_ws/build/ncnn_ros2/build/lib/ncnn_ros2
+copying ncnn_ros2/__init__.py -> /home/bingda/ros2_ws/build/ncnn_ros2/build/lib/ncnn_ros2
+copying ncnn_ros2/yolov5.py -> /home/bingda/ros2_ws/build/ncnn_ros2/build/lib/ncnn_ros2
+copying ncnn_ros2/ncnn_ros2_test.py -> /home/bingda/ros2_ws/build/ncnn_ros2/build/lib/ncnn_ros2
+copying ncnn_ros2/yolov5_ros.py -> /home/bingda/ros2_ws/build/ncnn_ros2/build/lib/ncnn_ros2
+copying ncnn_ros2/visual.py -> /home/bingda/ros2_ws/build/ncnn_ros2/build/lib/ncnn_ros2
+copying ncnn_ros2/yolov3.py -> /home/bingda/ros2_ws/build/ncnn_ros2/build/lib/ncnn_ros2
+copying ncnn_ros2/yolov8_ros.py -> /home/bingda/ros2_ws/build/ncnn_ros2/build/lib/ncnn_ros2
+copying ncnn_ros2/yolov8.py -> /home/bingda/ros2_ws/build/ncnn_ros2/build/lib/ncnn_ros2
+copying ncnn_ros2/yolov3_ros.py -> /home/bingda/ros2_ws/build/ncnn_ros2/build/lib/ncnn_ros2
+running install
+running install_lib
+creating /home/bingda/ros2_ws/install/ncnn_ros2/lib/python3.10/site-packages/ncnn_ros2
+copying /home/bingda/ros2_ws/build/ncnn_ros2/build/lib/ncnn_ros2/__init__.py -> /home/bingda/ros2_ws/install/ncnn_ros2/lib/python3.10/site-packages/ncnn_ros2
+copying /home/bingda/ros2_ws/build/ncnn_ros2/build/lib/ncnn_ros2/yolov5.py -> /home/bingda/ros2_ws/install/ncnn_ros2/lib/python3.10/site-packages/ncnn_ros2
+copying /home/bingda/ros2_ws/build/ncnn_ros2/build/lib/ncnn_ros2/ncnn_ros2_test.py -> /home/bingda/ros2_ws/install/ncnn_ros2/lib/python3.10/site-packages/ncnn_ros2
+copying /home/bingda/ros2_ws/build/ncnn_ros2/build/lib/ncnn_ros2/yolov5_ros.py -> /home/bingda/ros2_ws/install/ncnn_ros2/lib/python3.10/site-packages/ncnn_ros2
+copying /home/bingda/ros2_ws/build/ncnn_ros2/build/lib/ncnn_ros2/visual.py -> /home/bingda/ros2_ws/install/ncnn_ros2/lib/python3.10/site-packages/ncnn_ros2
+copying /home/bingda/ros2_ws/build/ncnn_ros2/build/lib/ncnn_ros2/yolov3.py -> /home/bingda/ros2_ws/install/ncnn_ros2/lib/python3.10/site-packages/ncnn_ros2
+copying /home/bingda/ros2_ws/build/ncnn_ros2/build/lib/ncnn_ros2/yolov8_ros.py -> /home/bingda/ros2_ws/install/ncnn_ros2/lib/python3.10/site-packages/ncnn_ros2
+copying /home/bingda/ros2_ws/build/ncnn_ros2/build/lib/ncnn_ros2/yolov8.py -> /home/bingda/ros2_ws/install/ncnn_ros2/lib/python3.10/site-packages/ncnn_ros2
+copying /home/bingda/ros2_ws/build/ncnn_ros2/build/lib/ncnn_ros2/yolov3_ros.py -> /home/bingda/ros2_ws/install/ncnn_ros2/lib/python3.10/site-packages/ncnn_ros2
+byte-compiling /home/bingda/ros2_ws/install/ncnn_ros2/lib/python3.10/site-packages/ncnn_ros2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/bingda/ros2_ws/install/ncnn_ros2/lib/python3.10/site-packages/ncnn_ros2/yolov5.py to yolov5.cpython-310.pyc
+byte-compiling /home/bingda/ros2_ws/install/ncnn_ros2/lib/python3.10/site-packages/ncnn_ros2/ncnn_ros2_test.py to ncnn_ros2_test.cpython-310.pyc
+byte-compiling /home/bingda/ros2_ws/install/ncnn_ros2/lib/python3.10/site-packages/ncnn_ros2/yolov5_ros.py to yolov5_ros.cpython-310.pyc
+byte-compiling /home/bingda/ros2_ws/install/ncnn_ros2/lib/python3.10/site-packages/ncnn_ros2/visual.py to visual.cpython-310.pyc
+byte-compiling /home/bingda/ros2_ws/install/ncnn_ros2/lib/python3.10/site-packages/ncnn_ros2/yolov3.py to yolov3.cpython-310.pyc
+byte-compiling /home/bingda/ros2_ws/install/ncnn_ros2/lib/python3.10/site-packages/ncnn_ros2/yolov8_ros.py to yolov8_ros.cpython-310.pyc
+byte-compiling /home/bingda/ros2_ws/install/ncnn_ros2/lib/python3.10/site-packages/ncnn_ros2/yolov8.py to yolov8.cpython-310.pyc
+byte-compiling /home/bingda/ros2_ws/install/ncnn_ros2/lib/python3.10/site-packages/ncnn_ros2/yolov3_ros.py to yolov3_ros.cpython-310.pyc
+running install_data
+creating /home/bingda/ros2_ws/install/ncnn_ros2/share/ament_index
+creating /home/bingda/ros2_ws/install/ncnn_ros2/share/ament_index/resource_index
+creating /home/bingda/ros2_ws/install/ncnn_ros2/share/ament_index/resource_index/packages
+copying resource/ncnn_ros2 -> /home/bingda/ros2_ws/install/ncnn_ros2/share/ament_index/resource_index/packages
+copying package.xml -> /home/bingda/ros2_ws/install/ncnn_ros2/share/ncnn_ros2
+creating /home/bingda/ros2_ws/install/ncnn_ros2/share/ncnn_ros2/launch
+copying launch/yolov5_ros.launch.py -> /home/bingda/ros2_ws/install/ncnn_ros2/share/ncnn_ros2/launch
+copying launch/yolov3_ros.launch.py -> /home/bingda/ros2_ws/install/ncnn_ros2/share/ncnn_ros2/launch
+copying launch/camera.launch.py -> /home/bingda/ros2_ws/install/ncnn_ros2/share/ncnn_ros2/launch
+copying launch/yolov8_ros.launch.py -> /home/bingda/ros2_ws/install/ncnn_ros2/share/ncnn_ros2/launch
+creating /home/bingda/ros2_ws/install/ncnn_ros2/share/ncnn_ros2/models
+copying models/mobilenetv2_yolov3.bin -> /home/bingda/ros2_ws/install/ncnn_ros2/share/ncnn_ros2/models
+copying models/yolov5s.param -> /home/bingda/ros2_ws/install/ncnn_ros2/share/ncnn_ros2/models
+copying models/yolov8s.bin -> /home/bingda/ros2_ws/install/ncnn_ros2/share/ncnn_ros2/models
+copying models/mobilenetv2_yolov3.param -> /home/bingda/ros2_ws/install/ncnn_ros2/share/ncnn_ros2/models
+copying models/yolov5s.bin -> /home/bingda/ros2_ws/install/ncnn_ros2/share/ncnn_ros2/models
+copying models/yolov8s.param -> /home/bingda/ros2_ws/install/ncnn_ros2/share/ncnn_ros2/models
+running install_egg_info
+Copying ../../build/ncnn_ros2/ncnn_ros2.egg-info to /home/bingda/ros2_ws/install/ncnn_ros2/lib/python3.10/site-packages/ncnn_ros2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ncnn_ros2_test script to /home/bingda/ros2_ws/install/ncnn_ros2/lib/ncnn_ros2
+Installing yolov10_ros script to /home/bingda/ros2_ws/install/ncnn_ros2/lib/ncnn_ros2
+Installing yolov3_ros script to /home/bingda/ros2_ws/install/ncnn_ros2/lib/ncnn_ros2
+Installing yolov5_ros script to /home/bingda/ros2_ws/install/ncnn_ros2/lib/ncnn_ros2
+Installing yolov7_ros script to /home/bingda/ros2_ws/install/ncnn_ros2/lib/ncnn_ros2
+Installing yolov8_ros script to /home/bingda/ros2_ws/install/ncnn_ros2/lib/ncnn_ros2
+writing list of installed files to '/home/bingda/ros2_ws/build/ncnn_ros2/install.log'

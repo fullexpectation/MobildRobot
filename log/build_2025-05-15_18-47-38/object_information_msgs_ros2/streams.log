@@ -1,0 +1,231 @@
+[1.592s] Invoking command in '/home/bingda/ros2_ws/build/object_information_msgs_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingda/ros2_ws/install/car_application:/home/bingda/ros2_ws/install/base_control_ros2:/home/bingda/ros2_ws/install/robot_vslam_ros2:/home/bingda/ros2_ws/install/robot_vision_ros2:/home/bingda/ros2_ws/install/robot_navigation_ros2:/home/bingda/ros2_ws/install/ncnn_ros2:/home/bingda/NanoRobot/install/car_application:/home/bingda/NanoRobot/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake /home/bingda/ros2_ws/src/object_information_msgs_ros2 -DCMAKE_INSTALL_PREFIX=/home/bingda/ros2_ws/install/object_information_msgs_ros2
+[1.740s] -- The C compiler identification is GNU 11.4.0
+[1.847s] -- The CXX compiler identification is GNU 11.4.0
+[1.870s] -- Detecting C compiler ABI info
+[2.095s] -- Detecting C compiler ABI info - done
+[2.142s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.161s] -- Detecting C compile features
+[2.163s] -- Detecting C compile features - done
+[2.163s] -- Detecting CXX compiler ABI info
+[2.335s] -- Detecting CXX compiler ABI info - done
+[2.399s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.400s] -- Detecting CXX compile features
+[2.402s] -- Detecting CXX compile features - done
+[2.415s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.184s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.035s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[4.675s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.736s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.784s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.864s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.965s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.133s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.211s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.858s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[9.240s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.459s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.504s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[10.508s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[10.577s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[10.577s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.577s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.577s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[10.625s] -- Found PythonExtra: .so  
+[10.763s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.841s] -- Added test 'lint_cmake' to check CMake code style
+[10.852s] -- Added test 'xmllint' to check XML markup files
+[10.887s] -- Configuring done
+[11.057s] -- Generating done
+[11.114s] -- Build files have been written to: /home/bingda/ros2_ws/build/object_information_msgs_ros2
+[11.136s] Invoked command in '/home/bingda/ros2_ws/build/object_information_msgs_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingda/ros2_ws/install/car_application:/home/bingda/ros2_ws/install/base_control_ros2:/home/bingda/ros2_ws/install/robot_vslam_ros2:/home/bingda/ros2_ws/install/robot_vision_ros2:/home/bingda/ros2_ws/install/robot_navigation_ros2:/home/bingda/ros2_ws/install/ncnn_ros2:/home/bingda/NanoRobot/install/car_application:/home/bingda/NanoRobot/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake /home/bingda/ros2_ws/src/object_information_msgs_ros2 -DCMAKE_INSTALL_PREFIX=/home/bingda/ros2_ws/install/object_information_msgs_ros2
+[11.138s] Invoking command in '/home/bingda/ros2_ws/build/object_information_msgs_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingda/ros2_ws/install/car_application:/home/bingda/ros2_ws/install/base_control_ros2:/home/bingda/ros2_ws/install/robot_vslam_ros2:/home/bingda/ros2_ws/install/robot_vision_ros2:/home/bingda/ros2_ws/install/robot_navigation_ros2:/home/bingda/ros2_ws/install/ncnn_ros2:/home/bingda/NanoRobot/install/car_application:/home/bingda/NanoRobot/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bingda/ros2_ws/build/object_information_msgs_ros2 -- -j8 -l8
+[11.580s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.635s] [  3%] Built target ament_cmake_python_copy_object_information_msgs_ros2
+[11.642s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.380s] [  9%] [32mBuilding C object CMakeFiles/object_information_msgs_ros2__rosidl_generator_c.dir/rosidl_generator_c/object_information_msgs_ros2/msg/detail/object__functions.c.o[0m
+[12.667s] [ 12%] [32m[1mLinking C shared library libobject_information_msgs_ros2__rosidl_generator_c.so[0m
+[13.045s] [ 12%] Built target object_information_msgs_ros2__rosidl_generator_c
+[13.127s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[13.200s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.241s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[13.774s] [ 22%] Built target object_information_msgs_ros2__cpp
+[13.798s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.922s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.960s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[14.158s] running egg_info
+[14.160s] creating object_information_msgs_ros2.egg-info
+[14.168s] writing object_information_msgs_ros2.egg-info/PKG-INFO
+[14.175s] writing dependency_links to object_information_msgs_ros2.egg-info/dependency_links.txt
+[14.178s] writing top-level names to object_information_msgs_ros2.egg-info/top_level.txt
+[14.180s] writing manifest file 'object_information_msgs_ros2.egg-info/SOURCES.txt'
+[14.215s] reading manifest file 'object_information_msgs_ros2.egg-info/SOURCES.txt'
+[14.223s] writing manifest file 'object_information_msgs_ros2.egg-info/SOURCES.txt'
+[14.573s] [ 35%] [32mBuilding C object CMakeFiles/object_information_msgs_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/object_information_msgs_ros2/msg/detail/object__type_support.c.o[0m
+[14.803s] [ 38%] [32m[1mLinking C shared library libobject_information_msgs_ros2__rosidl_typesupport_introspection_c.so[0m
+[15.035s] [ 38%] Built target ament_cmake_python_build_object_information_msgs_ros2_egg
+[15.093s] [ 38%] Built target object_information_msgs_ros2__rosidl_typesupport_introspection_c
+[15.997s] [ 41%] [32mBuilding CXX object CMakeFiles/object_information_msgs_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/object_information_msgs_ros2/msg/object__type_support.cpp.o[0m
+[16.115s] [ 45%] [32mBuilding CXX object CMakeFiles/object_information_msgs_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/object_information_msgs_ros2/msg/detail/object__type_support_c.cpp.o[0m
+[16.256s] [ 48%] [32m[1mLinking CXX shared library libobject_information_msgs_ros2__rosidl_typesupport_c.so[0m
+[16.337s] [ 51%] [32mBuilding CXX object CMakeFiles/object_information_msgs_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/object_information_msgs_ros2/msg/object__type_support.cpp.o[0m
+[16.626s] [ 51%] Built target object_information_msgs_ros2__rosidl_typesupport_c
+[16.870s] [ 54%] [32mBuilding CXX object CMakeFiles/object_information_msgs_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/object_information_msgs_ros2/msg/detail/dds_fastrtps/object__type_support.cpp.o[0m
+[17.185s] [ 58%] [32m[1mLinking CXX shared library libobject_information_msgs_ros2__rosidl_typesupport_cpp.so[0m
+[17.306s] [ 61%] [32mBuilding CXX object CMakeFiles/object_information_msgs_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/object_information_msgs_ros2/msg/detail/object__type_support.cpp.o[0m
+[17.695s] [ 61%] Built target object_information_msgs_ros2__rosidl_typesupport_cpp
+[20.184s] [ 64%] [32m[1mLinking CXX shared library libobject_information_msgs_ros2__rosidl_typesupport_fastrtps_cpp.so[0m
+[20.414s] [ 67%] [32m[1mLinking CXX shared library libobject_information_msgs_ros2__rosidl_typesupport_fastrtps_c.so[0m
+[20.746s] [ 67%] Built target object_information_msgs_ros2__rosidl_typesupport_fastrtps_cpp
+[20.811s] [ 70%] [32m[1mLinking CXX shared library libobject_information_msgs_ros2__rosidl_typesupport_introspection_cpp.so[0m
+[21.059s] [ 70%] Built target object_information_msgs_ros2__rosidl_typesupport_introspection_cpp
+[21.098s] [ 70%] Built target object_information_msgs_ros2__rosidl_typesupport_fastrtps_c
+[21.182s] [ 70%] Built target object_information_msgs_ros2
+[21.362s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[23.966s] [ 74%] Built target object_information_msgs_ros2__py
+[24.062s] [ 77%] [32mBuilding C object CMakeFiles/object_information_msgs_ros2__rosidl_generator_py.dir/rosidl_generator_py/object_information_msgs_ros2/msg/_object_s.c.o[0m
+[25.381s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/object_information_msgs_ros2/libobject_information_msgs_ros2__rosidl_generator_py.so[0m
+[25.915s] [ 80%] Built target object_information_msgs_ros2__rosidl_generator_py
+[26.031s] [ 83%] [32mBuilding C object CMakeFiles/object_information_msgs_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/object_information_msgs_ros2/_object_information_msgs_ros2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[26.547s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/object_information_msgs_ros2/object_information_msgs_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[26.831s] [ 87%] Built target object_information_msgs_ros2__rosidl_typesupport_fastrtps_c__pyext
+[26.963s] [ 90%] [32mBuilding C object CMakeFiles/object_information_msgs_ros2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/object_information_msgs_ros2/_object_information_msgs_ros2_s.ep.rosidl_typesupport_c.c.o[0m
+[27.158s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/object_information_msgs_ros2/object_information_msgs_ros2_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[27.243s] [ 93%] Built target object_information_msgs_ros2__rosidl_typesupport_c__pyext
+[27.389s] [ 96%] [32mBuilding C object CMakeFiles/object_information_msgs_ros2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/object_information_msgs_ros2/_object_information_msgs_ros2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[27.916s] [100%] [32m[1mLinking C shared library rosidl_generator_py/object_information_msgs_ros2/object_information_msgs_ros2_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[28.289s] [100%] Built target object_information_msgs_ros2__rosidl_typesupport_introspection_c__pyext
+[28.363s] Invoked command in '/home/bingda/ros2_ws/build/object_information_msgs_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingda/ros2_ws/install/car_application:/home/bingda/ros2_ws/install/base_control_ros2:/home/bingda/ros2_ws/install/robot_vslam_ros2:/home/bingda/ros2_ws/install/robot_vision_ros2:/home/bingda/ros2_ws/install/robot_navigation_ros2:/home/bingda/ros2_ws/install/ncnn_ros2:/home/bingda/NanoRobot/install/car_application:/home/bingda/NanoRobot/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bingda/ros2_ws/build/object_information_msgs_ros2 -- -j8 -l8
+[28.363s] Invoking command in '/home/bingda/ros2_ws/build/object_information_msgs_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingda/ros2_ws/install/car_application:/home/bingda/ros2_ws/install/base_control_ros2:/home/bingda/ros2_ws/install/robot_vslam_ros2:/home/bingda/ros2_ws/install/robot_vision_ros2:/home/bingda/ros2_ws/install/robot_navigation_ros2:/home/bingda/ros2_ws/install/ncnn_ros2:/home/bingda/NanoRobot/install/car_application:/home/bingda/NanoRobot/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bingda/ros2_ws/build/object_information_msgs_ros2
+[28.386s] -- Install configuration: ""
+[28.386s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/ament_index/resource_index/rosidl_interfaces/object_information_msgs_ros2
+[28.386s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2
+[28.386s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg
+[28.386s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail
+[28.386s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail/object__functions.h
+[28.386s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail/object__type_support.h
+[28.386s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail/object__functions.c
+[28.386s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail/object__struct.h
+[28.386s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/object.h
+[28.386s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/rosidl_generator_c__visibility_control.h
+[28.387s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/environment/library_path.sh
+[28.387s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/environment/library_path.dsv
+[28.387s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/lib/libobject_information_msgs_ros2__rosidl_generator_c.so
+[28.387s] -- Set runtime path of "/home/bingda/ros2_ws/install/object_information_msgs_ros2/lib/libobject_information_msgs_ros2__rosidl_generator_c.so" to ""
+[28.387s] -- Up-to-date: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2
+[28.387s] -- Up-to-date: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg
+[28.387s] -- Up-to-date: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail
+[28.387s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[28.387s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[28.387s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/lib/libobject_information_msgs_ros2__rosidl_typesupport_fastrtps_c.so
+[28.387s] -- Set runtime path of "/home/bingda/ros2_ws/install/object_information_msgs_ros2/lib/libobject_information_msgs_ros2__rosidl_typesupport_fastrtps_c.so" to ""
+[28.387s] -- Up-to-date: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2
+[28.387s] -- Up-to-date: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg
+[28.387s] -- Up-to-date: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail
+[28.387s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail/object__traits.hpp
+[28.388s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail/object__builder.hpp
+[28.388s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail/object__struct.hpp
+[28.388s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail/object__type_support.hpp
+[28.388s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/object.hpp
+[28.388s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/rosidl_generator_cpp__visibility_control.hpp
+[28.388s] -- Up-to-date: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2
+[28.388s] -- Up-to-date: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg
+[28.388s] -- Up-to-date: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail
+[28.388s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail/dds_fastrtps
+[28.388s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[28.392s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[28.392s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/lib/libobject_information_msgs_ros2__rosidl_typesupport_fastrtps_cpp.so
+[28.396s] -- Set runtime path of "/home/bingda/ros2_ws/install/object_information_msgs_ros2/lib/libobject_information_msgs_ros2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[28.396s] -- Up-to-date: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2
+[28.398s] -- Up-to-date: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg
+[28.398s] -- Up-to-date: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail
+[28.398s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail/object__rosidl_typesupport_introspection_c.h
+[28.399s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail/object__type_support.c
+[28.399s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[28.400s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/lib/libobject_information_msgs_ros2__rosidl_typesupport_introspection_c.so
+[28.405s] -- Set runtime path of "/home/bingda/ros2_ws/install/object_information_msgs_ros2/lib/libobject_information_msgs_ros2__rosidl_typesupport_introspection_c.so" to ""
+[28.405s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/lib/libobject_information_msgs_ros2__rosidl_typesupport_c.so
+[28.412s] -- Set runtime path of "/home/bingda/ros2_ws/install/object_information_msgs_ros2/lib/libobject_information_msgs_ros2__rosidl_typesupport_c.so" to ""
+[28.412s] -- Up-to-date: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2
+[28.412s] -- Up-to-date: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg
+[28.412s] -- Up-to-date: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail
+[28.412s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[28.412s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/include/object_information_msgs_ros2/object_information_msgs_ros2/msg/detail/object__type_support.cpp
+[28.412s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/lib/libobject_information_msgs_ros2__rosidl_typesupport_introspection_cpp.so
+[28.418s] -- Set runtime path of "/home/bingda/ros2_ws/install/object_information_msgs_ros2/lib/libobject_information_msgs_ros2__rosidl_typesupport_introspection_cpp.so" to ""
+[28.418s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/lib/libobject_information_msgs_ros2__rosidl_typesupport_cpp.so
+[28.422s] -- Set runtime path of "/home/bingda/ros2_ws/install/object_information_msgs_ros2/lib/libobject_information_msgs_ros2__rosidl_typesupport_cpp.so" to ""
+[28.422s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/environment/pythonpath.sh
+[28.431s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/environment/pythonpath.dsv
+[28.432s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2-0.0.0-py3.10.egg-info
+[28.435s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2-0.0.0-py3.10.egg-info/top_level.txt
+[28.439s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2-0.0.0-py3.10.egg-info/PKG-INFO
+[28.440s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2-0.0.0-py3.10.egg-info/SOURCES.txt
+[28.442s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2-0.0.0-py3.10.egg-info/dependency_links.txt
+[28.444s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2
+[28.445s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/msg
+[28.446s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/msg/__init__.py
+[28.447s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/msg/_object_s.c
+[28.450s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/msg/_object.py
+[28.450s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/__init__.py
+[28.451s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/object_information_msgs_ros2_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[28.451s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/object_information_msgs_ros2_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[28.451s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/libobject_information_msgs_ros2__rosidl_generator_py.so
+[28.452s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/_object_information_msgs_ros2_s.ep.rosidl_typesupport_introspection_c.c
+[28.452s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/_object_information_msgs_ros2_s.ep.rosidl_typesupport_c.c
+[28.453s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/object_information_msgs_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[28.453s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/_object_information_msgs_ros2_s.ep.rosidl_typesupport_fastrtps_c.c
+[28.632s] Listing '/home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2'...
+[28.632s] Compiling '/home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/__init__.py'...
+[28.632s] Listing '/home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/msg'...
+[28.633s] Compiling '/home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/msg/__init__.py'...
+[28.633s] Compiling '/home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/msg/_object.py'...
+[28.652s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/object_information_msgs_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[28.655s] -- Set runtime path of "/home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/object_information_msgs_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[28.657s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/object_information_msgs_ros2_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[28.661s] -- Set runtime path of "/home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/object_information_msgs_ros2_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[28.662s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/object_information_msgs_ros2_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[28.663s] -- Set runtime path of "/home/bingda/ros2_ws/install/object_information_msgs_ros2/local/lib/python3.10/dist-packages/object_information_msgs_ros2/object_information_msgs_ros2_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[28.663s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/lib/libobject_information_msgs_ros2__rosidl_generator_py.so
+[28.665s] -- Set runtime path of "/home/bingda/ros2_ws/install/object_information_msgs_ros2/lib/libobject_information_msgs_ros2__rosidl_generator_py.so" to ""
+[28.666s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/msg/Object.idl
+[28.668s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/msg/Object.msg
+[28.674s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/ament_index/resource_index/package_run_dependencies/object_information_msgs_ros2
+[28.680s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/ament_index/resource_index/parent_prefix_path/object_information_msgs_ros2
+[28.680s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/environment/ament_prefix_path.sh
+[28.681s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/environment/ament_prefix_path.dsv
+[28.681s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/environment/path.sh
+[28.682s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/environment/path.dsv
+[28.682s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/local_setup.bash
+[28.682s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/local_setup.sh
+[28.683s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/local_setup.zsh
+[28.683s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/local_setup.dsv
+[28.683s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/package.dsv
+[28.684s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/ament_index/resource_index/packages/object_information_msgs_ros2
+[28.684s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/export_object_information_msgs_ros2__rosidl_generator_cExport.cmake
+[28.685s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/export_object_information_msgs_ros2__rosidl_generator_cExport-noconfig.cmake
+[28.685s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/export_object_information_msgs_ros2__rosidl_typesupport_fastrtps_cExport.cmake
+[28.686s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/export_object_information_msgs_ros2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[28.686s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/export_object_information_msgs_ros2__rosidl_generator_cppExport.cmake
+[28.687s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/export_object_information_msgs_ros2__rosidl_typesupport_fastrtps_cppExport.cmake
+[28.687s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/export_object_information_msgs_ros2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[28.687s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/object_information_msgs_ros2__rosidl_typesupport_introspection_cExport.cmake
+[28.688s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/object_information_msgs_ros2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[28.688s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/object_information_msgs_ros2__rosidl_typesupport_cExport.cmake
+[28.689s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/object_information_msgs_ros2__rosidl_typesupport_cExport-noconfig.cmake
+[28.689s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/object_information_msgs_ros2__rosidl_typesupport_introspection_cppExport.cmake
+[28.689s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/object_information_msgs_ros2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[28.690s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/object_information_msgs_ros2__rosidl_typesupport_cppExport.cmake
+[28.690s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/object_information_msgs_ros2__rosidl_typesupport_cppExport-noconfig.cmake
+[28.691s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/export_object_information_msgs_ros2__rosidl_generator_pyExport.cmake
+[28.691s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/export_object_information_msgs_ros2__rosidl_generator_pyExport-noconfig.cmake
+[28.691s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/rosidl_cmake-extras.cmake
+[28.692s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.692s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.693s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/ament_cmake_export_libraries-extras.cmake
+[28.694s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/ament_cmake_export_targets-extras.cmake
+[28.694s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[28.695s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[28.695s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/object_information_msgs_ros2Config.cmake
+[28.695s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/cmake/object_information_msgs_ros2Config-version.cmake
+[28.696s] -- Installing: /home/bingda/ros2_ws/install/object_information_msgs_ros2/share/object_information_msgs_ros2/package.xml
+[28.715s] Invoked command in '/home/bingda/ros2_ws/build/object_information_msgs_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingda/ros2_ws/install/car_application:/home/bingda/ros2_ws/install/base_control_ros2:/home/bingda/ros2_ws/install/robot_vslam_ros2:/home/bingda/ros2_ws/install/robot_vision_ros2:/home/bingda/ros2_ws/install/robot_navigation_ros2:/home/bingda/ros2_ws/install/ncnn_ros2:/home/bingda/NanoRobot/install/car_application:/home/bingda/NanoRobot/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bingda/ros2_ws/build/object_information_msgs_ros2

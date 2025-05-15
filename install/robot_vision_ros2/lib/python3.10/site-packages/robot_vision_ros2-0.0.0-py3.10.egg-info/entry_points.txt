@@ -1,0 +1,5 @@
+[console_scripts]
+cv_bridge_test = robot_vision_ros2.cv_bridge_test:main
+line_detector = robot_vision_ros2.line_detector:main
+vision_test = robot_vision_ros2.vision_test:main
+

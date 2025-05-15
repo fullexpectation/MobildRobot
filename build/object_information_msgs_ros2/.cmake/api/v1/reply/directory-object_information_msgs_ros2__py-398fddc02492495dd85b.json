@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "object_information_msgs_ros2__py",
+		"source" : "/home/bingda/ros2_ws/build/object_information_msgs_ros2/object_information_msgs_ros2__py"
+	}
+}
