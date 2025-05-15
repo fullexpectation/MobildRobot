@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "random": "cpp"
+    },
+    "cmake.sourceDirectory": "/home/bingda/ros2_ws/src/depend_pkg/slam_gmapping/openslam_gmapping/gridfastslam"
+}
